@@ -12,7 +12,7 @@ import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material";
 import { useAuth } from "../firebase/Auth";
 import { useNavigate } from "react-router-dom";
-import css from "@emotion/react";
+import { css } from "@emotion/react";
 
 export default function Login() {
   const theme = useTheme();
@@ -73,7 +73,6 @@ export default function Login() {
             fullWidth
             id="password"
             name="password"
-            autoFocus
             type="password"
             autoComplete="current-password"
           ></TextField>

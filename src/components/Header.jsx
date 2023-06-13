@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import AppBar from "@mui/material/AppBar";
 import { Toolbar } from "@mui/material";
 import { Typography } from "@mui/material";
@@ -241,7 +242,7 @@ export default function Header() {
                 Hello, {user.displayName ?? user.email}
               </Button>
             ) : (
-              <Button color="inherit">Login</Button>
+              <Button onClick={logout} color="inherit">Login</Button>
             )}
           </Box>
         </Toolbar>
