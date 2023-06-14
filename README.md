@@ -2,8 +2,8 @@
 
 ## Deployed Site
 
-[Live Link](https://buy-all-nb.netlify.app)
+<ins>[Live Link](https://buy-all-nb.netlify.app)</ins>
 
 ## Technologies used
 
-# ReactJS, Firebase, React Router, Redux, Material UI, Emotion (CSS in JS), Javascript, Firestore API
+**ReactJS, Firebase, React Router, Redux, Material UI, Emotion (CSS in JS), Javascript, Firestore API**
