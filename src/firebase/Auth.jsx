@@ -20,14 +20,7 @@ import { useState } from "react";
 import { createContext } from "react";
 
 // Your web app's Firebase configuration
-// const firebaseConfig = {
-//   apiKey: "AIzaSyBjrYaIvjhFxTmI1xEikePx8dGz9lGJ1Mk",
-//   authDomain: "e-commerce-react-c1586.firebaseapp.com",
-//   projectId: "e-commerce-react-c1586",
-//   storageBucket: "e-commerce-react-c1586.appspot.com",
-//   messagingSenderId: "1021936779869",
-//   appId: "1:1021936779869:web:3fd00ceee522740bad83b4"
-// };
+
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
