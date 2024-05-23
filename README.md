@@ -2,7 +2,7 @@
 
 ## Deployed Site
 
-<ins>[Live Link](https://buy-all-nb.netlify.app)</ins>
+<ins>[Live Link](https://buy-all-1.netlify.app)</ins>
 
 ## Technologies used
 
